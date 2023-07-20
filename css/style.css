@@ -837,6 +837,7 @@ ul#top_menu {
 #main_menu.show {
   opacity: 1;
   visibility: visible;
+  text-align: -webkit-center;
 }
 #main_menu nav {
   animation-delay: 0.6s;
@@ -6113,4 +6114,12 @@ ul.bullets li:before {
   #cookie-bar {
     padding: 5px 0;
   }
+}
+
+.hcolour{
+  color: white;
+}
+
+.hcolour1 {
+  color: white;
 }
