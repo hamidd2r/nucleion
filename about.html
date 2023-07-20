@@ -108,31 +108,49 @@
 		<div class="container margin_120_95">
 			<div class="main_title_2">
 				<span><em></em></span>
-				<h2>Why choose Nucleion</h2>
-				<p>Tagline Nucleion</p>
+				<h2>Our Services</h2>
 			</div>
 			<div class="row">
-				<div id="divsize" class="col-lg-4 col-md-6">
-					<a class="box_feat" href="#">
-						<i class="pe-7s-check"></i>
-						<h3>01</h3>
-						<p>Unveiling the truth - Navigating uncertainty with expert guidance. 
-						</p>
-					</a>
+
+				<div class="boxesContainer">
+
+				<div class="cardBox">
+					<div class="card">
+					<div class="front">
+						<h3 class="cardh3">Development Consultancy</h3>
+						<!-- <p>Hover to flip</p> -->
+					</div>
+					<div class="back">
+						<h3>Development Consultancy</h3>
+						<span>Education</span><br>
+						<span>Health</span><br>
+						<span>Environment  / Pollution</span><br>
+						<span>WASH</span><br>
+						<span>Development</span><br><br>
+						<a href="development-grid.html">Read More</a>
+					</div>
+					</div>
 				</div>
-				<div id="divsize" class="col-lg-4 col-md-6">
-					<a class="box_feat" href="#">
-						<i class="pe-7s-safe"></i>
-						<h3>02</h3>
-						<p>Navigating Risks, Empowering Success. </p>
-					</a>
+
+				<div class="cardBox">
+					<div class="card">
+					<div class="front">
+						<h3 class="cardh3">Risk Consultancy</h3>
+						<!-- <p>Hover to flip</p> -->
+					</div>
+					<div class="back">
+						<h3>Risk Consultancy</h3>
+						<span>Brand Protection</span><br>
+						<span>Business Intelligence</span><br>
+						<span>Pre Employment Screening</span><br>
+						<span>Security Consulting</span><br>
+						<span>Loss Prevention</span><br>
+						<span>Social Audits</span><br>
+						<a href="risk-grid.html">Read More</a>
+					</div>
+					</div>
 				</div>
-				<div id="divsize" class="col-lg-4 col-md-6">
-					<a class="box_feat" href="#">
-						<i class="pe-7s-airplay"></i>
-						<h3>03</h3>
-						<p>Navigating Uncertainty, Securing Success.</p>
-					</a>
+
 				</div>
 				
 				
@@ -141,57 +159,6 @@
 		</div>
 		
 
-		<!-- <div class="bg_color_1">
-			<div class="container margin_120_95">
-				<div class="main_title_2">
-					<span><em></em></span>
-					
-					<h2>Our Nucleion Story</h2>
-					<p>Nucleion is a versatile service provider that offers a diverse range of solutions, spanning from information technology to business process outsourcing.</p>
-				</div>
-				<div class="row justify-content-between">
-					<div class="col-lg-6 wow" data-wow-offset="150">
-						<div class="flip-card">
-							<div class="flip-card-inner">
-							  <div class="flip-card-front">
-								<img src="img/course_1.jpg" alt="Avatar" style="width: 600px;height: 400px;">
-							  </div>
-							  <div class="flip-card-back" >
-								<h3 style="color: #fff;margin-top: 50px;">Development Consultancy</h3> 
-								<h5 style="color: #fff;">Education</h5> 
-								<h5 style="color: #fff;">Health</h5>
-								<h5 style="color: #fff;">Environment  / Pollution</h5>
-								<h5 style="color: #fff;">WASH</h5>
-								<h5 style="color: #fff;">Development</h5>
-							  </div>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-6 wow" data-wow-offset="150">
-
-						<div class="flip-card">
-							<div class="flip-card-inner">
-							  <div class="flip-card-front">
-								<img src="img/course_1.jpg" alt="Avatar" style="width: 600px;height: 400px;">
-							  </div>
-							  <div class="flip-card-back">
-								<h3 style="color: #fff;margin-top: 50px;">Risk Consultancy</h3> 
-								<h5 style="color: #fff;">Brand Protection</h5> 
-								<h5 style="color: #fff;">Business Intelligence</h5>
-								<h5 style="color: #fff;">Pre Employment Screening</h5>
-								<h5 style="color: #fff;">Security Consulting</h5>
-								<h5 style="color: #fff;">Loss Prevention</h5>
-								<h5 style="color: #fff;">Social Audits</h5>
-							  </div>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-			</div>
-			
-		</div> -->
-		<!--/bg_color_1-->
 
 		
 
@@ -317,3 +284,150 @@
 	
 </body>
 </html>
+<style>
+
+
+
+.cardBox {
+  float: left;
+  font-size: 1.2em;
+  margin: 1% 0 0 1%;
+  perspective: 800px;
+  transition: all 0.3s ease 0s;
+  width: 48%;
+}
+
+.cardBox:hover .card {
+  transform: rotateY( 180deg);
+}
+
+.card {
+  background: #2d305f;
+  cursor: default;
+  height: 300px;
+  transform-style: preserve-3d;
+  transition: transform 0.4s ease 0s;
+  width: 100%;
+  -webkit-animation: giro 1s 1;
+  animation: giro 1s 1;
+}
+
+.card p {
+  margin-bottom: 1.8em;
+}
+
+.card .front,
+.card .back {
+  backface-visibility: hidden;
+  box-sizing: border-box;
+  color: white;
+  display: block;
+  font-size: 1.2em;
+  height: 100%;
+  padding: 0.8em;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+.cardh3{
+	color: #fff;
+	margin:100px;
+}
+.card .front strong {
+  background: #fff;
+  border-radius: 100%;
+  color: #222;
+  font-size: 1.5em;
+  line-height: 30px;
+  padding: 0 7px 4px 6px;
+}
+.cardBox:nth-child(1) .card .front strong {
+  background: cornflowerblue;
+}
+.card .back {
+  transform: rotateY( 180deg);
+}
+
+.card .back a {
+  padding: 0.3em 0.5em;
+  background: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 1px;
+  font-size: 0.9em;
+  transition: all 0.2s ease 0s;
+}
+
+.card .back a:hover {
+  background: #fff;
+  color: #333;
+  text-shadow: 0 0 1px #333;
+}
+
+.cardBox:nth-child(1) .card .back {
+  background: cornflowerblue;
+}
+
+.cardBox:nth-child(2) .card .back {
+  background:#a09fa0;
+}
+
+
+
+.cardBox:nth-child(2) .card {
+  -webkit-animation: giro 1.5s 1;
+  animation: giro 1.5s 1;
+}
+
+
+
+@-webkit-keyframes giro {
+  from {
+    transform: rotateY( 180deg);
+  }
+  to {
+    transform: rotateY( 0deg);
+  }
+}
+
+@keyframes giro {
+  from {
+    transform: rotateY( 180deg);
+  }
+  to {
+    transform: rotateY( 0deg);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cardBox {
+    margin-left: 2.8%;
+    margin-top: 3%;
+    width: 46%;
+  }
+  .card {
+    height: 324px;
+  }
+  .cardBox:last-child {
+    margin-bottom: 3%;
+  }
+  .cardh3{
+	color: #fff;
+	margin:20px;
+}
+}
+
+@media screen and (max-width: 480px) {
+  .cardBox {
+    width: 94.5%;
+  }
+  .card {
+    height: 324px;
+  }
+  .cardh3{
+	color: #fff;
+	margin:20px;
+}
+}
+
+</style>
