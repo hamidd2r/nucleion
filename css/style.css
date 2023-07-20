@@ -667,7 +667,7 @@ ul#top_menu li a.btn_1:hover {
   border-bottom: 5px solid #FFC107;
 }
 #hero_in.general:before {
-  background: url(../img/bg_general.jpg) center center no-repeat;
+  background: url(../img/about.jpg) center center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -6118,8 +6118,14 @@ ul.bullets li:before {
 
 .hcolour{
   color: white;
+  font-size: 50px !important;
+  width: 300px;
+  line-height: 1.2;
 }
+
 
 .hcolour1 {
   color: white;
+  /* font-size: 50px; */
+  font-weight: bold;
 }
