@@ -1767,10 +1767,11 @@ ul#grid_home {
   padding: 0;
   margin: 0;
   width: 100%;
+  padding-bottom: 5rem;
 }
 ul#grid_home li {
   position: relative;
-  width: 33.33%;
+  width: 49.0%;
   float: left;
 }
 @media (max-width: 767px) {
@@ -5772,7 +5773,7 @@ ul.bullets li:before {
 }
 
 .margin_120_95 {
-  padding-top: 120px;
+  padding-top: 45px;
   padding-bottom: 95px;
 }
 @media (max-width: 991px) {
@@ -6118,14 +6119,23 @@ ul.bullets li:before {
 
 .hcolour{
   color: white;
-  font-size: 50px !important;
-  width: 300px;
-  line-height: 1.2;
+  font-size: 70px !important;
+  width: 500px;
+  line-height: 1.8;
+  top: 0px;
 }
 
 
 .hcolour1 {
   color: white;
-  /* font-size: 50px; */
+  /* font-size: 70px; */
   font-weight: bold;
+}
+
+
+.centered-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Adjust as needed */
 }
