@@ -2,146 +2,33 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Udema a modern educational site template">
-    <meta name="author" content="Ansonika">
-    <title>UDEMA | Modern Educational site template</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>Nucleion | Website</title>
 
-    <!-- Favicons-->
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" type="image/x-icon" href="img/apple-touch-icon-57x57-precomposed.png">
-    <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="img/apple-touch-icon-72x72-precomposed.png">
-    <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="img/apple-touch-icon-114x114-precomposed.png">
-    <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="img/apple-touch-icon-144x144-precomposed.png">
+  <!-- Favicons-->
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" type="image/x-icon" href="img/apple-touch-icon-57x57-precomposed.png">
+  <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="img/apple-touch-icon-72x72-precomposed.png">
+  <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="img/apple-touch-icon-114x114-precomposed.png">
+  <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="img/apple-touch-icon-144x144-precomposed.png">
 
-    <!-- GOOGLE WEB FONT -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- GOOGLE WEB FONT -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
-    <!-- BASE CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-	<link href="css/vendors.css" rel="stylesheet">
-	<link href="css/icon_fonts/css/all_icons.min.css" rel="stylesheet">
+  <!-- BASE CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+<link href="css/vendors.css" rel="stylesheet">
+<link href="css/icon_fonts/css/all_icons.min.css" rel="stylesheet">
 
-    <!-- YOUR CUSTOM CSS -->
-    <link href="css/custom.css" rel="stylesheet">
-	
-	<style>
-	
-	.font-icon-list {
-	  padding: 20px 0px 0px 0px;
-	  margin-bottom: 20px; }
-	
-	.font-icon-list:hover {
-	  cursor: pointer; }
-	
-	.font-icon-detail {
-	  text-align: center; }
-	
-	.font-icon-detail span:first-child {
-	  display: inline-block;
-	  transition: color 150ms linear, background 150ms linear, font-size 150ms linear, width 150ms;
-	  padding: 10px 0px;
-	  width: 70px;
-	  font-size: 48px;
-	  color: #1a1a1a;
-	  border: 1px solid #eaeaea;
-	  border-radius: 3px; }
-	
-	.font-icon-name {
-	  font-size: 13px;
-	  margin-top: 15px;
-	  display: block;
-	  text-align: center;
-	  width: 100%;
-	  padding: 0;
-	  border: 0; }
-	
-	.font-icon-name:focus, .font-icon-name:active {
-	  outline: none; }
-	
-	.font-icon-code {
-	  max-height: 0;
-	  overflow: hidden;
-	  text-align: center;
-	  opacity: 0;
-	  transition: max-height 200ms linear, opacity 200ms linear; }
-	
-	.font-icon-code.show {
-	  max-height: 200px;
-	  opacity: 1; }
-	
-	.code-value, .unicode, .unicode-text {
-	  background: none;
-	  text-align: center;
-	  border: none;
-	  color: #a0a0a0; }
-	
-	.code-value {
-	  display: block;
-	  width: 100%; }
-	
-	.unicode, .unicode-text {
-	  color: #a0a0a0; }
-	
-	.unicode {
-	  float: left;
-	  font-family: "Pe-icon-7-stroke";
-	  text-align: right;
-	  width: 38%;
-	  padding-right: 5px; }
-	
-	.unicode-text {
-	  text-align: left;
-	  float: left;
-	  display: inline-block;
-	  width: 100px;
-	  border: none; }
-	
-	.unicode-text:focus,
-	.unicode-text:active {
-	  outline: none; }
-	
-	.font-icon-list:hover .font-icon-name,
-	.font-icon-list:hover .code-value,
-	.font-icon-list:hover .unicode,
-	.font-icon-list:hover .unicode-text,
-	.font-icon-detail.zeroclipboard-is-hover .font-icon-name,
-	.font-icon-detail.zeroclipboard-is-hover + .font-icon-code .code-value,
-	.font-icon-detail.zeroclipboard-is-hover + .font-icon-code .unicode,
-	.font-icon-detail.zeroclipboard-is-hover + .font-icon-code .unicode-text {
-	  cursor: text;
-	  color: #1a1a1a; }
-	.font-icon-list:hover .font-icon-detail span:first-child,
-	.font-icon-detail.zeroclipboard-is-hover span:first-child {
-	  color: #fff;
-	  background: #1a1a1a; }
-	.font-icon-name::-moz-selection,
-	.code-value::-moz-selection,
-	.unicode::-moz-selection,
-	.unicode-text::-moz-selection,
-	.font-icon-name::-moz-selection {
-	  background: #aadce2;
-	  color: #1a1a1a; }
-	
-	.font-icon-name::selection,
-	.code-value::selection,
-	.unicode::selection,
-	.unicode-text::selection,
-	.font-icon-name::selection {
-	  background: #aadce2;
-	  color: #1a1a1a; }
-	
-	.font-icon-name::-moz-selection,
-	.code-value::-moz-selection,
-	.unicode::-moz-selection,
-	.unicode-text::-moz-selection,
-	.font-icon-name::-moz-selection {
-	  background: #aadce2;
-	  color: #1a1a1a; }
+<!-- SPECIFIC CSS -->
+  <link href="css/vegas.min.css" rel="stylesheet">
 
-	</style>
+  <!-- YOUR CUSTOM CSS -->
+  <link href="css/custom.css" rel="stylesheet">
 
 </head>
 
