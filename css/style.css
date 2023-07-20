@@ -1782,11 +1782,11 @@ ul#grid_home li {
 }
 ul#grid_home li:nth-child(1) .short_info {
   background-color: #372675;
-  background-color: rgba(57, 39, 121, 0.8);
+ background-color: #00008B;
 }
 ul#grid_home li:nth-child(2) .short_info {
   background-color: #8e268b;
-  background-color: rgba(146, 39, 143, 0.8);
+  background-color: rgb(137 135 137 / 80%);
 }
 ul#grid_home li:nth-child(3) .short_info {
   background-color: #392779;
@@ -6145,3 +6145,8 @@ ul.bullets li:before {
   font-size: 220px;
   background-color: red;
 } */
+
+
+#hover :hover{
+  background-color: red;
+}
