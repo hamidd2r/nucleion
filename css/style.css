@@ -528,7 +528,7 @@ header {
     padding: 15px 15px 0 15px;
   }
 }
-header.header.sticky {
+/* header.header.sticky {
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
@@ -538,7 +538,7 @@ header.header.sticky {
   background: -webkit-linear-gradient(left, #480048, #C04848);
   background: linear-gradient(to right, #480048, #C04848);
   padding: 15px 20px;
-}
+} */
 @media (max-width: 767px) {
   header.header.sticky {
     padding: 15px 15px 0 15px;
@@ -847,6 +847,7 @@ ul#top_menu {
 #main_menu nav ul {
   padding: 0;
   width: 100%;
+  
   animation-delay: 0.8s;
   -webkit-animation-delay: 0.8s;
   -moz-animation-delay: 0.8s;
@@ -1253,7 +1254,7 @@ ul#additional_links li:after {
 }
 #main_menu nav.version_2 li {
   float: none;
-  width: auto;
+  width: 400px;
   margin: 0 0 10px 0;
 }
 @media (max-width: 767px) {
@@ -6117,8 +6118,8 @@ ul.bullets li:before {
 
 .hcolour{
   color: white;
-  font-size: 70px !important;
-  width: 500px;
+  font-size: 50px !important;
+  width: 400px;
   line-height: 1.8;
   top: 0px;
 }
@@ -6126,7 +6127,7 @@ ul.bullets li:before {
 
 .hcolour1 {
   color: white;
-  /* font-size: 70px; */
+  font-size: 50px;
   font-weight: bold;
 }
 
@@ -6139,12 +6140,7 @@ ul.bullets li:before {
 }
 
 
-/* #divsize{
+#divsize{
   font-size: 220px;
-  background-color: red;
-} */
-
-
-#hover :hover{
   background-color: red;
 }
