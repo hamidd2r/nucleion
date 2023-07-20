@@ -5774,7 +5774,7 @@ ul.bullets li:before {
 
 .margin_120_95 {
   padding-top: 45px;
-  padding-bottom: 95px;
+  /* padding-bottom: 95px; */
 }
 @media (max-width: 991px) {
   .margin_120_95 {
