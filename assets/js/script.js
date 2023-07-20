@@ -249,7 +249,7 @@ jQuery(function ($) {
             $('.boost-carousel').owlCarousel({
                 loop:true,
                 autoplay:true,
-                autoplayTimeout: 3000,
+                autoplayTimeout: 300000,
                 margin:30,
                 dots:true,
                 nav:true,
@@ -266,9 +266,9 @@ jQuery(function ($) {
                         nav:true,
                         dots:true,
                     },
-                    1000:{
-                        items:3
-                    }
+                    // 1000:{
+                    //     items:3
+                    // }
                 }
             });
         }
