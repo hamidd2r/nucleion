@@ -8143,7 +8143,7 @@ textarea, select {
       position: fixed;
       top: 35px;
       /* right: 300px; */
-      z-index: 9999;
+      /* z-index: 9999; */
       background-color: #333;
       color: #fff;
       padding: 10px 20px;
@@ -8154,8 +8154,8 @@ textarea, select {
     .minimized-menu {
       position: fixed;
       top: 0;
-      right: -240px; /* Initially hidden on the right side */
-      width: 220px;
+      right: -420px; /* Initially hidden on the right side */
+      width: 400px;
       height: 100%;
       background-color: #333;
       color: #fff;
