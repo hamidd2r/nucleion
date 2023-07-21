@@ -1200,16 +1200,29 @@ textarea, select {
     @media (min-width: 992px) and (max-width: 1199px) {
       .slider-section #rev_slider_1 .font-extra-bold {
         font-size: 40px !important;
-        line-height: 60px !important; } }
+        line-height: 60px !important; }
+        .myslider-class{
+          display: none!important;
+        } }
+        @media (min-width: 992px) and (max-width: 3099px) {
+            .myslider-class{
+              display: none!important;
+            } }
     @media only screen and (max-width: 991px) {
       .slider-section #rev_slider_1 .font-extra-bold {
         font-size: 30px !important;
-        line-height: 50px !important; } }
+        line-height: 50px !important; }.myslider-class{
+          display: none!important;
+        }.myslider-class{
+          display: none!important;
+        } }
     @media only screen and (max-width: 767px) {
       .slider-section #rev_slider_1 .font-extra-bold {
         font-size: 25px !important;
         line-height: 40px !important;
-        margin: 0 0 9px !important; } }
+        margin: 0 0 9px !important; }.myslider-class{
+          display: none!important;
+        } }
   .slider-section #rev_slider_1 .font-medium {
     font-size: 18px !important;
     font-weight: 500 !important;
@@ -1223,7 +1236,9 @@ textarea, select {
       .slider-section #rev_slider_1 .font-medium {
         font-size: 16px !important;
         line-height: 25px !important;
-        margin: 0 0 9px !important; } }
+        margin: 0 0 9px !important; }.myslider-class{
+          display: none!important;
+        } }
     @media only screen and (max-width: 479px) {
       .slider-section #rev_slider_1 .font-medium {
         font-size: 14px !important;
@@ -1232,7 +1247,28 @@ textarea, select {
         margin-left: 10px!important;
         margin-right: 10px!important;
         text-justify: auto;
-       } }
+       }
+      .myclass{
+        display: none!important;
+      }
+      .myslider-class{
+        display: block!important;
+        position: absolute!important;
+        top: 50%!important;
+        left: 50%!important;
+        transform: translate(-50%, -50%)!important;
+        font-size: 14px!important;
+        color: #fff!important;
+        /* background-color: rgba(0, 0, 0, 0.7); */
+        padding: 10px 20px!important;
+        border-radius: 8px!important;
+        z-index: 1!important;
+        margin-top: 31px!important;
+        /* margin-left: -50px; */
+        width: 307px!important;
+      }
+      }
+      
   .slider-section #rev_slider_1 .btn {
     font-size: 18px !important;
     border-radius: 0;
