@@ -2122,7 +2122,7 @@ textarea, select {
   padding: 7px 25px;
   margin-top: 33px; }
 .project-section .project-content {
-  border: 2px solid #48c7ec;
+  /* border: 2px solid #48c7ec; */
   border-radius: 5px;
   padding: 45px; }
   .project-section .project-content h3 {
@@ -6729,7 +6729,7 @@ textarea, select {
           color: #48c7ec; }
 .subPage .header-section .navbar {
   background-color: transparent;
-  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1); */
   transition: .5s; }
   .subPage .header-section .navbar.sticky {
     background-color: #FFFFFF; }

@@ -25,9 +25,13 @@
         <link href="assets/css/offcanvas-menu.css" rel="stylesheet" type="text/css">
         <!-- style-css -->
         <link href="assets/css/style.css" rel="stylesheet" type="text/css">
-        <script>
-            
-          </script>
+<script>
+            // JavaScript function to toggle the menu
+            function toggleMenu() {
+            const menu = document.getElementById('minimizedMenu');
+            menu.classList.toggle('expanded');
+        }
+</script>
     </head>
     <body class="subPage contactPage">
         <!-- start preloader -->
@@ -62,10 +66,10 @@
                                 <!-- <span class="close-icon" onclick="toggleMenu()">&times;</span> -->
                                 <span class="close-menu" onclick="toggleMenu()"><i class="fa fa-times" aria-hidden="true"></i></span>
                                     <div class="menu-top">
-                                        <a href="#" >Home</a>
-                                        <a href="#">About</a>
-                                        <a href="#">Services</a>
-                                        <a href="#">Contact</a>
+                                        <a href="/" >Home</a>
+                                        <a href="about.html">About</a>
+                                        <a href="Develpment.html">Services</a>
+                                        <a href="contact.html">Contact</a>
                                     </div>
                                 </div>
                             </ul>
@@ -74,6 +78,7 @@
                 </div> 
             </nav>
         </header> <!-- header-section -->
+
         <section class="header-title section-padding">
             <div class="container text-center">
                 <h2 class="title">Contact</h2>
