@@ -8097,7 +8097,7 @@ textarea, select {
     .menu-toggle1 {
       position: fixed;
       top: 35px;
-      right: 300px;
+      /* right: 300px; */
       z-index: 9999;
       background-color: #333;
       color: #fff;
@@ -8109,8 +8109,8 @@ textarea, select {
     .minimized-menu {
       position: fixed;
       top: 0;
-      right: -300px; /* Initially hidden on the right side */
-      width: 280px;
+      right: -260px; /* Initially hidden on the right side */
+      width: 240px;
       height: 100%;
       background-color: #333;
       color: #fff;
