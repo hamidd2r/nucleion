@@ -8193,9 +8193,9 @@ textarea, select {
     }
 
     /* Main content container */
-    .content {
+    /* .content {
       padding: 20px;
-    }
+    } */
     .close-menu i {
         width: 40px;
         height: 40px;
