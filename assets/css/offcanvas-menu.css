@@ -55,12 +55,12 @@
 	content: "";
 	position: absolute;
     width: 155px;
-    height: 30px;
+    height: 43px;
     left: 0;
     right: 0;
     top: 50%;
     margin: -15px auto 0;
-	background: url(../images/logo-m.png) no-repeat;
+	background: url(../images/logo-m1.jpg) no-repeat;
 }
 
 #offcanvas-menu .close-menu {
