@@ -8242,7 +8242,8 @@ textarea, select {
   }
   .textsize {
     /* background-color: red; */
-    font-size: 11px;
+    font-size: 15px;
+    line-height: normal;
   }
   .item{
     line-height: 18px;
