@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Right-Side Minimized Menu with Close Icon</title>
+  <style>
+    /* Reset default styles */
+    body, html {
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Main content styling */
+    body {
+      font-family: Arial, sans-serif;
+      overflow-x: hidden; /* Prevent horizontal scrollbar */
+    }
+
+    /* Minimized menu button */
+    .menu-toggle {
+      position: fixed;
+      top: 10px;
+      right: 10px;
+      z-index: 9999;
+      background-color: #333;
+      color: #fff;
+      padding: 10px 20px;
+      cursor: pointer;
+    }
+
+    /* Minimized menu container */
+    .minimized-menu {
+      position: fixed;
+      top: 0;
+      right: -200px; /* Initially hidden on the right side */
+      width: 200px;
+      height: 100%;
+      background-color: #333;
+      color: #fff;
+      transition: right 0.3s ease-in-out;
+      z-index: 9998;
+    }
+
+    /* Expanded menu style */
+    .minimized-menu.expanded {
+      right: 0;
+    }
+
+    /* Menu links style */
+    .minimized-menu a {
+      display: block;
+      padding: 10px;
+      color: #fff;
+      text-decoration: none;
+    }
+
+    /* Hover effect for menu links */
+    .minimized-menu a:hover {
+      background-color: #555;
+    }
+
+    /* Close icon style */
+    .close-icon {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      color: #fff;
+      font-size: 18px;
+      cursor: pointer;
+    }
+
+    /* Main content container */
+    .content {
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Minimized menu button -->
+  <div class="menu-toggle" onclick="toggleMenu()">Menu</div>
+
+  <!-- Minimized menu container -->
+  <div class="minimized-menu" id="minimizedMenu">
+    <span class="close-icon" onclick="toggleMenu()">&times;</span>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+  </div>
+
+  <!-- Main content container -->
+  <div class="content">
+    <h1>Welcome to our website!</h1>
+    <p>This is the main content of the website.</p>
+  </div>
+
+  <script>
+    // JavaScript function to toggle the menu
+    function toggleMenu() {
+      const menu = document.getElementById('minimizedMenu');
+      menu.classList.toggle('expanded');
+    }
+  </script>
+</body>
+</html>
